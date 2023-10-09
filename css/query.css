@@ -1,0 +1,134 @@
+
+/* mobile media query */
+@media screen and (min-width: 480px){
+    
+    .header-nav li{
+        display: none;
+    }
+    .header-nav button{
+        display: none;
+    }
+    .header-nav .fa-solid{
+        display: inline-block;
+    }
+}
+/* tablet media query */
+
+@media screen and (min-width: 768px){
+    .header-nav li{
+        display: none;
+    }
+    .header-nav button{
+        display: none;
+    }
+    .header-nav .fa-solid{
+        display: inline-block;
+    }
+  
+    .first-section{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .container{
+        width: 32%;
+        
+    }
+    .specialcontainer{
+        width: 66%;
+        min-height: 300px;
+    }
+    .row .container{
+        min-height: 300px;
+    }
+    .second-section-container{
+        width: 90%;
+    }
+    .second-section-card{
+        width: 90%;
+    }
+    .third-section-card{
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em 0.5em;
+    }
+    .third-section-content{
+        width: 90%;
+    }
+    .fourth-section-direction{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+    }
+    .fourth-container-card{
+        width: 47%;
+    }
+    .fifth-section{
+        flex-direction: row;
+        width: 80%;
+    }
+    .text{
+        flex-direction: column;
+        width: 50%;
+    }
+    .sixth-container{
+        width: 35%;
+    }
+    .footer-container{
+        width: 30%;
+    }
+}
+
+
+
+
+
+/* desktop media query */
+@media screen and (min-width: 1160px){
+    
+    header li{
+        display: block;
+    }
+    header button{
+        display: block;
+    }
+    header .fa-solid{
+        display: none;
+    }
+    .header-container{
+        width: 60%;
+    }
+    .first-section{
+        width: 60%;
+    }
+    .second-section-container{
+        width: 60%;
+    }
+    .second-section-card{
+        width: 60%;
+    }
+    .third-section-card{
+        width: 60%;
+    }
+    .third-section-content{
+        width: 60%;
+    }
+    .fourth-section-direction{
+        width: 60%;
+    }
+    .fifth-section{
+        width: 60%;
+    }
+   
+    .sixth-container{
+        width: 25%;
+    }
+    .footer-container{
+        width: 20%;
+    }
+}

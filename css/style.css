@@ -10,16 +10,20 @@
 header{
     width: 100%;
     background-color: cornflowerblue;
-    justify-content: space-between;
-    align-items: center;
     height: 50px;
 }
-.header-logo{
-    margin-left: 2em;
+.header-container{
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 100%;
 }
-.header-nav{
-    margin-right: 2em;
+header li{
+    display: inline;
+    text-decoration: none;
 }
+
 .first-section{
     width: 80%;
     justify-content: space-between;
@@ -35,7 +39,9 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 10px;
 }
+
 .second-section{
     flex-direction: column;
     width: 100%;
@@ -59,6 +65,7 @@ header{
     align-items: center;
     justify-content: center;
     width: 80%;
+    border-radius: 15px;
 }
 .third-section{
     flex-direction: column;
@@ -75,6 +82,7 @@ header{
     min-height: 100px;
     background-color: rgb(184, 108, 255);
     margin: 1em 0 1em 0;
+    border-radius: 15px;
 }
 .third-section-content{
     flex-direction: column;
@@ -85,11 +93,12 @@ header{
 .fourth-section{
     background-color: rgb(184, 108, 255);
     width: 100%;
+}
+.fourth-section-direction{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2em 0;
-
 }
 .fourth-subtitle-container{
     flex-direction: column;
@@ -102,12 +111,18 @@ header{
     background-color: white;
     width: 80%;
     margin: 1em 0;
+    border-radius: 15px;
 }
 .fifth-section{
     width: 80%;
     margin: auto;
     padding: 4em 0 2em 0;
+    flex-direction: column;
 }
+.text{
+    flex-wrap: wrap;
+}
+
 .sixth-section{
     width: 100%;
     background-color: rgb(184, 108, 255);
@@ -121,14 +136,19 @@ header{
     width: 80%;
 }
 footer{
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
     height: 150px;
     color: white;
     background-color: rgb(35, 35, 35);
     padding: 2em 0;
 }
-
+.footer-container{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
 
 

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.flex{
+    display: flex;
+}
+header{
+    width: 100%;
+    background-color: cornflowerblue;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.header-logo{
+    margin-left: 2em;
+}
+.header-nav{
+    margin-right: 2em;
+}
+.first-section{
+    width: 80%;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 3em auto 0 auto;
+    
+}
+.container{
+    width: 100%;
+    background-color: cornflowerblue;
+    min-height: 100px;
+    margin-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second-section{
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(184, 108, 255);
+    margin: 3em auto 0;
+    padding: 3em 0;
+    min-height: 100px;
+    align-items: center;
+}
+.second-section-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+    
+}
+.second-section-card{
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.third-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3em auto 3em;
+    min-height: 100px;
+}
+.third-section-card{
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    background-color: rgb(184, 108, 255);
+    margin: 1em 0 1em 0;
+}
+.third-section-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.fourth-section{
+    background-color: rgb(184, 108, 255);
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+
+}
+.fourth-subtitle-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.fourth-container-card{
+    min-height: 100px;
+    background-color: white;
+    width: 80%;
+    margin: 1em 0;
+}
+.fifth-section{
+    width: 80%;
+    margin: auto;
+    padding: 4em 0 2em 0;
+}
+.sixth-section{
+    width: 100%;
+    background-color: rgb(184, 108, 255);
+    padding: 3em 0 3em;
+}
+.sixth-container{
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+footer{
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    color: white;
+    background-color: rgb(35, 35, 35);
+    padding: 2em 0;
+}
+
+
+

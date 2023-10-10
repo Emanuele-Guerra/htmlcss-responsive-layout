@@ -59,27 +59,7 @@
     height: 150px;
     border-radius: 50%;
 }
-.testimonial1{
-    background-image: url(../img/testimonial1.jpg);
-    background-position: center;
-    background-size: cover;
-}
-.testimonial2{
-    background-image: url(../img/testimonial2.jpg);
-    background-position: center;
-    background-size: cover;
-}
-.testimonial3{
-    background-image: url(../img/testimonial3.jpg);
-    background-position: center;
-    background-size: cover;
-}
-.testimonial4{
-    background-image: url(../img/about.jpg);
-    background-position: center;
-    background-size: cover;
 
-}
 .numbersBig{
     font-size: 40px; 
     font-weight: 600;
@@ -107,7 +87,7 @@
     font-size: 50px;
     position: absolute;
     right: 0;
-    top: 0;
+    
     
 }
 .p-relative{

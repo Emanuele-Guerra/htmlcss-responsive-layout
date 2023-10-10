@@ -29,7 +29,6 @@
         width: 66%;
         height: 510px;
         padding-bottom: 0;
-        
         align-items: flex-start;
         
         
@@ -47,17 +46,19 @@
     .third-section-card{
         width: 90%;
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
+        
         padding: 2em 0.5em;
-        align-content: flex-start;
+        
     }
     .third-section-content{
         width: 90%;
+        text-align: left;
         
         
     }
     .round-cont{
+
         
     }
     .fourth-section-direction{
@@ -75,6 +76,7 @@
         flex-direction: row;
         width: 80%;
     }
+    
     .text{
         flex-direction: column;
         width: 50%;

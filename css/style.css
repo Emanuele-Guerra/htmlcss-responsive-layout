@@ -184,7 +184,14 @@ header li{
     padding: 4em 0 2em 0;
     flex-direction: column;
 }
+.fifth-round img{
+    position: relative;
+    display: block;
+}
 .text{
+    flex-wrap: wrap;
+}
+.text1{
     flex-wrap: wrap;
 }
 

@@ -75,11 +75,16 @@
     .fifth-section{
         flex-direction: row;
         width: 80%;
+        justify-content: space-between;
+        
     }
-    
+    .text1{
+        width: 50%;
+        flex-direction: column;
+    }
     .text{
         flex-direction: column;
-        width: 50%;
+        width: 30%;
     }
     .sixth-container{
         width: 35%;

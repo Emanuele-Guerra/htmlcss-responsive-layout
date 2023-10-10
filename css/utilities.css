@@ -39,6 +39,7 @@
 .bg-colorBlue{background-color: #0084FD;}
 .bg-colorViolet{background-color:#9792E4;}
 .bg-colorLightblue{background-color: #85DDFF;}
+.bg-colorOrange{background-color: #FDC15F;}
 
 .first-section h3{
     font-size: 20px;
@@ -90,9 +91,8 @@
     
     
 }
-.p-relative{
-    position: relative;
-}
+
+
 .linkedin-but{
     border-style: none;
     padding: 10px 15px;

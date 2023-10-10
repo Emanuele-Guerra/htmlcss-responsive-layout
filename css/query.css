@@ -2,12 +2,7 @@
 /* mobile media query */
 @media screen and (min-width: 480px){
     
-    .header-nav li{
-        display: none;
-    }
-    .header-nav button{
-        display: none;
-    }
+   
     .header-nav .fa-solid{
         display: inline-block;
     }
@@ -15,16 +10,7 @@
 /* tablet media query */
 
 @media screen and (min-width: 768px){
-    .header-nav li{
-        display: none;
-    }
-    .header-nav button{
-        display: none;
-    }
-    .header-nav .fa-solid{
-        display: inline-block;
-    }
-  
+    
     .first-section{
         flex-direction: row;
         justify-content: space-between;
@@ -85,19 +71,17 @@
 }
 
 
-
-
-
 /* desktop media query */
+
 @media screen and (min-width: 1160px){
     
-    header li{
-        display: block;
+    .header-nav li{
+        display: inline-block;
     }
-    header button{
-        display: block;
+    .header-nav button{
+        display: inline-block;
     }
-    header .fa-solid{
+    .header-nav .fa-solid{
         display: none;
     }
     .header-container{

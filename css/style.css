@@ -20,9 +20,13 @@ header{
     height: 100%;
 }
 header li{
-    display: inline;
+    display: none;
     text-decoration: none;
 }
+.header-nav button{
+    display: none;
+}
+
 
 .first-section{
     width: 80%;

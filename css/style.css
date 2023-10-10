@@ -10,7 +10,10 @@
 header{
     width: 100%;
     background-color: cornflowerblue;
-    height: 50px;
+    height: 60px;
+}
+.header-logo{
+    height: 30px;
 }
 .header-container{
     justify-content: space-between;
@@ -25,31 +28,60 @@ header li{
 }
 .header-nav button{
     display: none;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 7px;
 }
+.header-nav{
+    color: white;
+}
+
 
 
 .first-section{
     width: 80%;
     justify-content: space-between;
     flex-direction: column;
+    align-items: center;
+    align-content: center;
     margin: 3em auto 0 auto;
-    
+}
+
+.specialcontainer{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    padding: 2em 2em 0 2em;
 }
 .container{
     width: 100%;
-    background-color: cornflowerblue;
     min-height: 100px;
     margin-bottom: 1em;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
+    background-color: #85DDFF;
+    padding: 2em;
+}
+.firstSection-img img{
+    height: 300px;
+}
+.firstSection-img{
+    justify-content: center;
+}
+
+.planningimg{
+    max-height: 300px;
 }
 
 .second-section{
     flex-direction: column;
     width: 100%;
-    background-color: rgb(184, 108, 255);
     margin: 3em auto 0;
     padding: 3em 0;
     min-height: 100px;
@@ -70,6 +102,14 @@ header li{
     justify-content: center;
     width: 80%;
     border-radius: 15px;
+    padding: 1em;
+}
+.round-btn{
+    border-radius: 50%;
+    border-style: none;
+    width: 50px;
+    height: 50px;
+    margin-top: 3em;
 }
 .third-section{
     flex-direction: column;
@@ -78,21 +118,36 @@ header li{
     margin: 3em auto 3em;
     min-height: 100px;
 }
+
+.round-cont{
+    min-width: 30%;
+    border-radius: 50%;
+    margin-top: 2em;
+    
+}
+.cardquote{
+    max-width: 70%;
+}
+
 .third-section-card{
     width: 80%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100px;
+    min-height: 200px;
     background-color: rgb(184, 108, 255);
     margin: 1em 0 1em 0;
     border-radius: 15px;
+}
+.cardcontent{
+    width: 70%;
 }
 .third-section-content{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 80%;
+    
 }
 .fourth-section{
     background-color: rgb(184, 108, 255);
@@ -116,6 +171,8 @@ header li{
     width: 80%;
     margin: 1em 0;
     border-radius: 15px;
+    flex-direction: column;
+    padding: 2em;
 }
 .fifth-section{
     width: 80%;
@@ -138,6 +195,16 @@ header li{
     justify-content: space-between;
     align-items: center;
     width: 80%;
+}
+.sixth-section button{
+    border-style: none;
+    padding: 10px 15px;
+    height: 50px;
+    width: 220px;
+    border-radius: 25px;
+    font-weight: 700;
+   
+
 }
 footer{
     height: 150px;

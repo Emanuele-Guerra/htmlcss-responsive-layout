@@ -1,6 +1,6 @@
 
 /* mobile media query */
-@media screen and (min-width: 480px){
+@media screen and (min-width: 375px){
     
    
     .header-nav .fa-solid{
@@ -17,16 +17,26 @@
         flex-wrap: wrap;
         width: 90%;
     }
+    .first-section img{
+        align-self: flex-start;
+        
+    }
     .container{
         width: 32%;
         
     }
     .specialcontainer{
         width: 66%;
-        min-height: 300px;
+        height: 510px;
+        padding-bottom: 0;
+        
+        align-items: flex-start;
+        
+        
     }
-    .row .container{
-        min-height: 300px;
+    .row{
+        min-height: 510px;
+        justify-content: flex-start;
     }
     .second-section-container{
         width: 90%;
@@ -40,9 +50,15 @@
         justify-content: space-between;
         align-items: center;
         padding: 2em 0.5em;
+        align-content: flex-start;
     }
     .third-section-content{
         width: 90%;
+        
+        
+    }
+    .round-cont{
+        
     }
     .fourth-section-direction{
         flex-direction: row;
@@ -53,6 +69,7 @@
     }
     .fourth-container-card{
         width: 47%;
+        
     }
     .fifth-section{
         flex-direction: row;

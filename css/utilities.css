@@ -2,3 +2,122 @@
 .margin-right-1em{margin-right: 1em;}
 .margin-top-1em{margin-top: 1em;}
 .margin-bottom-1em{margin-bottom: 1em}
+.m-1em{margin: 1em;}
+.m-topbot-1em{margin: 1em 0 1em 0;}
+.m-2em-top-bot{margin: 2em 0 2em 0;}
+
+.btn-1sec{
+    border: none;
+    padding: 7px 25px;
+    color: white;
+    background-color: darkcyan;
+    border-radius: 15px;
+    font-weight: bold;
+    height: 35px;
+  
+    
+}
+.margin-left-2em{margin-left: 2em;}
+.margin-right-2em{margin-right: 2em;}
+.margin-top-2em{margin-top: 2em;}
+.margin-bottom-2em{margin-bottom: 2em}
+.m-2em{margin: 2em;}
+
+.lineH-25px{
+    line-height: 25px;
+    vertical-align: middle;
+}.colorGraytext{
+    color: #333333;
+    font-weight: 600;
+    font-size: 14px;
+}
+.colorViolet{color: #9792E4;}
+.colorBlue{color: #0084FD;}
+.colorOrange{color: #FDC15F;}
+.colorWhite{color: white;}
+
+.bg-colorBlue{background-color: #0084FD;}
+.bg-colorViolet{background-color:#9792E4;}
+.bg-colorLightblue{background-color: #85DDFF;}
+
+.first-section h3{
+    font-size: 20px;
+}
+
+.iconBig{
+    font-size: 100px;
+    color: #0084FD;
+}
+.alignCenter{
+    text-align: center;
+}
+.lH{line-height: 25px; 
+    vertical-align: middle;}
+.cursive{font-style: oblique;}
+.round-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.testimonial1{
+    background-image: url(../img/testimonial1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.testimonial2{
+    background-image: url(../img/testimonial2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.testimonial3{
+    background-image: url(../img/testimonial3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.testimonial4{
+    background-image: url(../img/about.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.numbersBig{
+    font-size: 40px; 
+    font-weight: 600;
+}
+.more-btn{
+    padding: 10px 10px;
+    border-radius: 15px;
+    border-style: none;
+    width: 150px;
+}
+.bald{font-weight: 700;}
+.fontsize5{font-size: 5px;}
+.fontsize10{font-size: 10px;}
+.fontsize12{font-size: 12px;}
+.fontsize14{font-size: 14px;}
+.fontsize16{font-size: 16px;}
+.fontsize18{font-size: 18px;}
+.fontsize20{font-size: 20px;}
+.fontsize25{font-size: 25px;}
+.fontsize30{font-size: 30px;}
+.fontsize35{font-size: 35px;}
+.fontsize40{font-size: 40px;}
+
+.quoteSpec{
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+.p-relative{
+    position: relative;
+}
+.linkedin-but{
+    border-style: none;
+    padding: 10px 15px;
+    height: 30px;
+    border-radius: 15px;
+    vertical-align: middle;
+}
+.m-icon{margin-left: 5px;}

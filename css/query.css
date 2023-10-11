@@ -39,8 +39,17 @@
     }
     .second-section-container{
         width: 90%;
+        min-height: 100px;
+        
+    }
+   
+    .secsecp{
+        text-align: left;
     }
     .second-section-card{
+        width: 90%;
+    }
+    .whiteplan{
         width: 90%;
     }
     .third-section-card{
@@ -57,10 +66,7 @@
         
         
     }
-    .round-cont{
-
-        
-    }
+    
     .fourth-section-direction{
         flex-direction: row;
         flex-wrap: wrap;
@@ -71,6 +77,9 @@
     .fourth-container-card{
         width: 47%;
         
+    }
+    .cardquote{
+        text-align: left;
     }
     .fifth-section{
         flex-direction: row;

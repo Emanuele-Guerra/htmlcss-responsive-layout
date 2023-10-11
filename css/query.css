@@ -114,8 +114,23 @@
     .first-section{
         width: 60%;
     }
+    .second-section{
+        flex-direction: row;
+        padding: 0 0 2em 0;
+        height: 800px;
+    }
     .second-section-container{
-        width: 60%;
+        width: 25%;
+        font-size: 12px;
+        margin-right: 1em;
+    }
+    .whiteplan{
+        width: 25%;
+        font-size: 12px;
+        align-self: flex-end;
+    }
+    .whiteplan img{
+        width: 80%;
     }
     .second-section-card{
         width: 60%;
@@ -129,10 +144,16 @@
     .fourth-section-direction{
         width: 60%;
     }
-    .fifth-section{
-        width: 60%;
+    .fourth-container-card{
+        width: calc(100% / 3 - 1em);
     }
-   
+    .fifth-section{
+        width: 50%;
+    }
+    .cardquote{
+        text-align: left;
+        
+    }
     .sixth-container{
         width: 25%;
     }

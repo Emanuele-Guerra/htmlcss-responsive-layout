@@ -86,23 +86,20 @@ header li{
     padding: 3em 0;
     min-height: 100px;
     align-items: center;
+    justify-content: center;
 }
 .second-section-container{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     width: 80%;
     
     
 }
-.second-section-card{
+.whiteplan{
     background-color: white;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 80%;
     border-radius: 15px;
     padding: 1em;
+    text-align: center;
 }
 .round-btn{
     border-radius: 50%;
@@ -128,6 +125,7 @@ header li{
     margin-left: 1em;
     
 }
+
 .cardquote{
     max-width: 70%;
     
@@ -194,7 +192,14 @@ header li{
 .text1{
     flex-wrap: wrap;
 }
-
+.quoteSpec{
+    position: absolute;
+    top: 20px;
+    
+}
+.round-cont{
+    position: relative;
+}
 .sixth-section{
     width: 100%;
     background-color: rgb(184, 108, 255);
